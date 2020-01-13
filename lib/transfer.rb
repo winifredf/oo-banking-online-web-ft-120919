@@ -22,7 +22,6 @@ class Transfer
       self.sender.balance -= amount
       self.receiver.balance += amount
       self.status = "complete"
-      closed_account_transfer = Transfer.new(amanda, terrance, 50)
       
     else self.status = "rejected"
       puts "Transaction rejected. Please check your account balance."
