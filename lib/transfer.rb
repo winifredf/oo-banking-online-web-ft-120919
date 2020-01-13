@@ -30,4 +30,5 @@ class Transfer
     end
   end
 
-Avi = BankAccount.new("Avi")
+avi = BankAccount.new("Avi")
+avi.account_hash
