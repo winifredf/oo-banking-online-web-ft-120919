@@ -18,5 +18,26 @@ class Transfer
     end
   end
   
+  def execute_transition
+    if @sender.balance < @amount
+      @status = "rejected"
+      return "Transaction rejected. Please check your account balance"
+    
+    elsif @status == "complete"
+      puts "Transaction was already executed"
+    
+    else
+      @sender.deposit( @amount * -1 )
+      @receiver.deposit( @amount )
+      @status = "complete"
+    end
+  end
   
+  def reverse_transfer
+    if @status == "complete"
+      @sender.deposit( @amount )
+      @receiver.deposit( @amount *-1 )
+      @status = "reeversed"
+    end
+  end
 end
