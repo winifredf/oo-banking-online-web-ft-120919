@@ -31,7 +31,7 @@ class Transfer
   end
   
   def reverse_transfer
-    
+    @reverse_transfer
   end
 
 avi = BankAccount.new("Avi")
