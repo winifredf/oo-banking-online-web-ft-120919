@@ -37,7 +37,7 @@ class Transfer
       self.status = "reversed"
     end
   end 
-end
+
 
 barbara = BankAccount.new("barbara")
 bilikis = BankAccount.new("bilikis") 
