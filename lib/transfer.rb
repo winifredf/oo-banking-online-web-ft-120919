@@ -39,8 +39,3 @@ class Transfer
   end 
 
 
-barbara = BankAccount.new("barbara")
-bilikis = BankAccount.new("bilikis") 
-
-thistransfer = Transfer.new(barbara, bilikis, 50)
-#binding.pry
