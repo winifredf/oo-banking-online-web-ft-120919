@@ -14,7 +14,6 @@ class Transfer
     if self.sender.valid? && self.receiver.valid?
       true
     else false
-    end
   end
   
   def execute_transaction
