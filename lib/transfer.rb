@@ -40,5 +40,4 @@ class Transfer
       "Transaction rejected. Please check your account balance."      
     end
   end
-  
-  avi = BankAccount.new("Avi")
+end
