@@ -37,4 +37,3 @@ class Transfer
   end 
 end
 
-closed_account_transfer = Transfer.new(amanda, terrance, 50)
