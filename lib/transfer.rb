@@ -37,7 +37,7 @@ class Transfer
   end 
 end
 
-amanda = BankAccount.new("amanda")
+
 closed_account_transfer = BankAccount.new("closed_account_transfer") 
 
 closed_account_transfer = Transfer.new(amanda, terrance, 50)
