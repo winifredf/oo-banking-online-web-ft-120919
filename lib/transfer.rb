@@ -38,6 +38,6 @@ class Transfer
 end
 
 barbara = BankAccount.new("barbara")
-bilikis = BankAccount.new("bilikis") 
+closed_account_transfer = BankAccount.new("closed_account_transfer") 
 
-thistransfer = Transfer.new(barbara, bilikis, 50)
+closed_account_transfer = Transfer.new(amanda, terrance, 50)
