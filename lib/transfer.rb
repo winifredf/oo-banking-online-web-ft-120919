@@ -31,4 +31,4 @@ class Transfer
   end
 
 avi = BankAccount.new("Avi")
-avi.account_hash
+avi.reverse_transfer
