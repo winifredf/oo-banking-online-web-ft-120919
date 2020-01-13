@@ -3,8 +3,6 @@ class Transfer
   # your code here
   attr_accessor :sender, :receiver, :amount, :status
   
-  @@all << self
-  
   def initialize
     @sender = sender
     @receiver = receiver
