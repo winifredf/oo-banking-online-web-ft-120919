@@ -26,7 +26,7 @@ class Transfer
     elsif sender.balance < amount
         @status = "rejected"
       
-    else @status = "reject"
+    else @status = "rejected"
       "Transaction rejected. Please check your account balance."
     end
   end
