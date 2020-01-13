@@ -30,3 +30,4 @@ class Transfer
     end
   end
 
+Avi = BankAccount.new("Avi")
